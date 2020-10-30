@@ -44,11 +44,11 @@ body {
 }
 
 .imglogo {
-    width: 10%;
+    width: 25%;
 }
 
 .imgtxt {
-    width: 50%;
+    width: 75%;
 }
 
 .imgphoto {
@@ -56,7 +56,7 @@ body {
 }
 
 .imgyt {
-    width: 10%;
+    width: 25%;
 }
 
 #txt {
