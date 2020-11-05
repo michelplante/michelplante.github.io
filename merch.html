@@ -28,5 +28,32 @@
             <img src="img/webLogo.svg" alt="Michel Plante Logo" class="imglogo">
         </div>
     </div>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script>
+        let startX = 0;
+        let endX = 0;
+    
+        window.addEventListener('touchstart', (event) => {
+            startX = event.touches[0].clientX;
+        })
+
+        window.addEventListener('touchend', (event) => {
+            endX = event.changedTouches[0].clientX;
+            
+            let result = endX - startX;
+            if(Math.abs(result) >= 100) {
+                if(result  >= 0 ) {
+                    window.location = 'evenements.html';
+                }
+                else { 
+                    window.location = 'contact.html';
+                }
+            }
+            else {
+                startX = 0;
+                endX = 0;
+            }
+        })
+    </script>
 </body>
 </html>
