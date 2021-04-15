@@ -56,12 +56,13 @@ a {
 }
 
 .imgtxt {
-    width: 50%;
+    width: 60%;
+    margin: 36px;
 }
 
 .imgtxt2 {
-    width: 25%;
-    margin: 64px;
+    width: 40%;
+    margin: 72px;
 }
 
 .imgphoto {
