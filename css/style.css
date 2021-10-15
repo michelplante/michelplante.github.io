@@ -15,19 +15,14 @@ a {
     width: 16.66666666666667%;
 }
 
-.imgtxt {
+.img1 {
     width: 60%;
     margin: 36px;
 }
 
-.imgtxt2 {
+.img2 {
     width: 40%;
     margin: 72px;
-}
-
-#txt {
-    padding-right: 68px;
-    padding-left: 68px;
 }
 
 .row::after {
