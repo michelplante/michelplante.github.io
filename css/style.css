@@ -11,48 +11,8 @@ body {
     background-color: #0072bc;
 }
 
-.topnav {
-    background-color: black;
-    overflow: hidden;
-    top: 0;
-    width: 100%;
-    height: 16.66666666666667%;
-}
-
 a {
     width: 16.66666666666667%;
-}
-
-.topnav a {
-    background-color: black;
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 15px 15px;
-    text-decoration: none;
-}
-
-.topnav a:hover {
-    background-color: #111;
-    color: white;
-}
-
-.topnav a.active {
-    background-color: #006738;
-    color: white;
-}
-
-.topnav .icon {
-    display: none;
-}
-
-.imglogo {
-    width: 10%;
-}
-
-.imgicon {
-    width: 85%;
 }
 
 .imgtxt {
@@ -63,18 +23,6 @@ a {
 .imgtxt2 {
     width: 40%;
     margin: 72px;
-}
-
-.imgphoto {
-    width: 25%;
-}
-
-.imgyt {
-    width: 25%;
-}
-
-.imgfb {
-    width: 17.5%;
 }
 
 #txt {
@@ -106,55 +54,3 @@ a {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-
-.videocontainer {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
-}
-.video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.accordion {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    padding: 2%;
-    width: 100%;
-    text-align: center;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-}
-  
-.accordion.active, .accordion:hover {
-    background-color: black;
-    color: #006738;
-}
-  
-.panel {
-    padding: 0;
-    background-color: black;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-}
-
-.accordion:after {
-    content: '\002B';
-    font-size: 2.5vw;
-    color: white;
-    float: center;
-    margin-left: 2.5vw;
-  }
-  
-  .accordion.active:after {
-    content: "\002D";
-    color: #006738;
-  }
